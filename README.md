@@ -61,6 +61,9 @@ STEP #3: Run the SPMF library to create Closed Frequent Patterns from the inputf
           java -jar spmf.jar run FPClose inputfp_100K.txt outputfp.txt 0%
           
           Results: you should see the file outputfp.txt
+          
+          More information about this library: https://www.philippe-fournier-viger.com/spmf/
+          
         
 STEP #4: Run the One-Pass Micrcocluster algorithm based in the paper description:
 
