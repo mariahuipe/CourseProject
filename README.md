@@ -1,6 +1,10 @@
 # CourseProject
 
-Maria Fernandez- Final Project. 
+Maria Fernandez - Final Project. 
+
+PROJECT DEMO VIDEO LINK:
+https://www.amazon.com/photos/shared/_pfYcGAFShmihAYWeZtZHw.qkEKw7lYgK8usmZzd2AQfI 
+
 
 Pre-requirements:
 
