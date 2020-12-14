@@ -27,11 +27,12 @@ STEP #2:
      
      1. Download data set 
            a. Go here: https://dblp.org/xml/release/
-           b. Download to the file called: 	dblp-2020-11-01.xml.gz . Download to same directory where you clone my git repository.
+           b. Download to the file called: 	dblp-2020-11-01.xml.gz . 
+              Download to same directory where you clone my git repository.
            c. If in Unix/OS: unzip the gz file: 
                 gunzip dblp-2020-11-01.xml.gz 
              
-           This will create the dblp-2020-11-01.xml which is the input of the Prep-processing process.
+           This will create the dblp-2020-11-01.xml which is the input of the Pre-processing process.
            d. Make sure you have the dblp.dtd which was downloaded from my Git repository
            
       2. Run the Pre-Processing process:
