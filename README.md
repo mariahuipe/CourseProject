@@ -42,8 +42,9 @@ STEP #2:
             - inputfp_100K.txt
             - titles.txt
          
-         NOTE: The xml file is pretty big. I was not able to process this file from my Windows laptop due to lack of memory but I was 
-         able to do it from my Mac, it still takes a few minutes. This is why I am putting this step as an optional step and I am including 
+         NOTE: The xml file is pretty big. I was not able to process this file from my Windows laptop
+         due to lack of memory but I was  able to do it from my Mac, it still takes a few minutes. 
+         This is why I am putting this step as an optional step and I am including 
          option B which is skipping this step and take the files that have been produced by the pre-processing.
          
     OPTION B: Copy pre-processed files from the back up directory:
@@ -54,12 +55,14 @@ STEP #2:
 
 
 STEP #3: Run the SPMF library to create Closed Frequent Patterns from the inputfp_100K.txt file:
+      
       1. Run the following:
           java -jar spmf.jar run FPClose inputfp_100K.txt outputfp.txt 0%
           
           Results: you should see the file outputfp.txt
         
 STEP #4: Run the One-Pass Micrcocluster algorithm based in the paper description:
+
       1. Do the following: 
           java DblpCalcDistance
           
