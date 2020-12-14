@@ -18,11 +18,14 @@ Pre-requirements:
 
 **************************************************************************************************************************
 
-STEP #1 Clone Git repository: https://github.com/mariahuipe/CourseProject/
+STEP #1 Clone Git repository:
+      https://github.com/mariahuipe/CourseProject/
 
-SETP #2: 
-  OPTION A: Run the Data Pre-processing of the source data set.
-      1. Download data set 
+STEP #2:   
+  
+     OPTION A: Run the Data Pre-processing of the source data set.
+     
+     1. Download data set 
            a. Go here: https://dblp.org/xml/release/
            b. Download to the file called: 	dblp-2020-11-01.xml.gz . Download to same directory where you clone my git repository.
            c. If in Unix/OS: unzip the gz file: 
@@ -30,6 +33,7 @@ SETP #2:
              
            This will create the dblp-2020-11-01.xml which is the input of the Prep-processing process.
            d. Make sure you have the dblp.dtd which was downloaded from my Git repository
+           
       2. Run the Pre-Processing process:
          java -Xmx8G -cp mmdb-2019-04-29.jar:. ParseDblp  > inputfp_100K.txt
          
